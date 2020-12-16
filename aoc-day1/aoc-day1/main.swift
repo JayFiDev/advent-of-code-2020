@@ -9,7 +9,7 @@ import Foundation
 
 import Foundation
 
-let contentData = FileManager.default.contents(atPath: "/Users/juergen/Nextcloud/Programming/Swift/advent-of-code-2020/aoc-day1/aoc-day1/input.txt")
+let contentData = FileManager.default.contents(atPath: "input.txt")
 let content = String(data:contentData!, encoding:String.Encoding.utf8)
 let ints = content!.components(separatedBy: "\n").compactMap{ Int($0) }
 
