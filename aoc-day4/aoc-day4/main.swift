@@ -7,7 +7,7 @@
 
 import Foundation
 
-let input = "/input.txt"
+let input = "/Users/juergen/Nextcloud/Programming/Swift/advent-of-code-2020/aoc-day4/aoc-day4/input.txt"
 let contentData = FileManager.default.contents(atPath: input)
 let content = String(data:contentData!, encoding:String.Encoding.utf8)
 let strings = content!.components(separatedBy: "\n\n").filter{$0 != ""}
