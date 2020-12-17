@@ -17,7 +17,7 @@ struct Instruction {
   }
 }
 
-let input = "/Users/juergen/Nextcloud/Programming/Swift/advent-of-code-2020/aoc-day8/aoc-day8/input.txt"
+let input = ".input.txt"
 let contentData = FileManager.default.contents(atPath: input)
 let content = String(data:contentData!, encoding:String.Encoding.utf8)
 let lines = content!.components(separatedBy: "\n").filter{$0 != ""}
@@ -87,17 +87,7 @@ func solvePart2(_ lines: [String]){
     if change_pointer == instructions.count {
       break
     }
-
-
-
   }
-
-
-
-
-
-
-
 }
 
 func checkIfLoop(_ instructions: [Instruction]) -> Bool {
