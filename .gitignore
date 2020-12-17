@@ -88,3 +88,9 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+aoc-day7/aoc-day7/Bag.swift
+aoc-day7/aoc-day7/input.txt
+aoc-day7/aoc-day7/main.swift
+aoc-day7/aoc-day7.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+aoc-day7/aoc-day7.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+aoc-day7/aoc-day7.xcodeproj/project.pbxproj
